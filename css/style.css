@@ -21,7 +21,6 @@ img {
 .container {
     width: 90%;
     height: 90%;
-
     padding: 1rem 0;
 }
 
@@ -93,12 +92,3 @@ img {
 }
 
 /* toolbar-section */
-.toolbar {
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    height: 75px;
-    /* debug */
-    background-color: aquamarine;
-}
