@@ -10,13 +10,47 @@ img {
 }
 
 /* COMMON */
-.container {
+.wrapper {
     width: 100%;
     height: 100vh;
     background-color: black;
+}
+
+.container {
+    width: 90%;
+    height: 80%;
+    /* debug */
+    background-color: aqua;
+    padding: 2rem 0;
 }
 
 .flex-direction {
     display: flex;
 }
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.no-strech {
+    align-items: flex-start;
+}
+.pos-rel {
+    position: relative;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+/* MAIN */
+
+.cam-view {
+    width: calc(100% / 7);
+
+}
