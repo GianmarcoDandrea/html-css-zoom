@@ -10,7 +10,10 @@ img {
     max-width: 100%;
     display: block;
 }
-
+/* ROOT */
+:root {
+    --bar-action-height: 70px;
+}
 /* COMMON */
 .wrapper {
     width: 100%;
@@ -102,7 +105,7 @@ img {
 /* toolbar-section */
 .toolbar {
     background-color: #222222;
-    height: 70px;
+    height: var(--bar-action-height);
     width: 100%;
     position: fixed;
     bottom: 0;
@@ -133,4 +136,16 @@ img {
 
 .fa-share-from-square {
     color: #4bc800;
+}
+
+.end-call {
+    color: red;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.end-text {
+    padding: 0 1.5rem;
+    background-color: #4a4a4a;
+    line-height: var(--bar-action-height);
 }
