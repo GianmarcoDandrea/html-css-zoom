@@ -37,11 +37,9 @@ img {
 .flex-wrap {
     flex-wrap: wrap;
 }
-
-.no-strech {
-    align-items: flex-start;
+.column-row {
+    flex-direction: column;
 }
-
 .pos-rel {
     position: relative;
 }
@@ -101,4 +99,22 @@ img {
     position: fixed;
     bottom: 0;
     left: 0; 
+    justify-content: space-between;
+}
+
+.toolbar p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+.left-bar-action,
+.end-call {
+    width: 15%;
+    background-color: #4a4a4a;
+}
+
+.left-bar-action {
+    color: white;
+    font-size: 2rem;
 }
