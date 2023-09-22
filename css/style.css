@@ -23,7 +23,7 @@ img {
 
 .container {
     width: 95%;
-    height: 90%;
+    height: calc(100% - var(--bar-action-height));
     padding: 0 0 5rem;
     overflow-y: auto;
 }
