@@ -10,10 +10,12 @@ img {
     max-width: 100%;
     display: block;
 }
+
 /* ROOT */
 :root {
     --bar-action-height: 70px;
 }
+
 /* COMMON */
 .wrapper {
     width: 100%;
@@ -40,9 +42,11 @@ img {
 .flex-wrap {
     flex-wrap: wrap;
 }
+
 .column-row {
     flex-direction: column;
 }
+
 .pos-rel {
     position: relative;
 }
@@ -109,7 +113,7 @@ img {
     width: 100%;
     position: fixed;
     bottom: 0;
-    left: 0; 
+    left: 0;
     justify-content: space-between;
 }
 
